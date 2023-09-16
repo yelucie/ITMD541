@@ -78,8 +78,8 @@ a:hover {
 }
 
 h1 {
+    margin-left: 10%;
     margin-top: 30px;
-    margin-left: 80px;
     font-family: 'Mochiy Pop P One';
     font-size: 70px;
     color: #2B3034;
@@ -87,16 +87,50 @@ h1 {
 }
 
 .content {
-    display: block;
-    align-items: center; /* Centrer verticalement le contenu */
-    margin-left: 60px;
-    margin-right: 24%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-family: 'Kodchasan';
+    font-size: 16px;
+    font-weight: normal;
+    gap: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 20px;
+    text-align: justify;
+    align-items: end;
+}
+
+.about {
     border: solid;
     border-radius: 25px;
     border-color: #2A2E2C;
     background-color: white;
+    padding: 30px;
 }
 
-.content p {
-    padding: 10px;
+.about p {
+    margin: 0;
+    padding: 8px;
+}
+
+.skills {
+    padding: 20px;
+    display: flex;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills li {
+    border-radius: 25px;
+    border-color: #2A2E2C;
+    width: fit-content;
+    background-color: white;
+    margin: 5px;
+    padding: 15px;
 }
