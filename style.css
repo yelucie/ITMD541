@@ -61,10 +61,11 @@ a:hover {
 }
 
 .welcome {
-    margin-top: 25px;
-    margin-left: 80px;
+    width: 20%;
+    height: 20%;
+    margin: 1% 5%;
     font-family: 'Mochiy Pop P One';
-    font-size: 70px;
+    font-size: 100%;
     color: #2B3034;
 }
 
@@ -139,7 +140,10 @@ h1 {
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 20px;
-    text-align: justify;
+}
+
+.contact ul {
+    display: flex;
 }
 
 .contact ul li {
