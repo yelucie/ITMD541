@@ -154,15 +154,27 @@ a:hover {
         font-family: 'Kodchasan';
         font-weight: normal;
         gap: 20px;
-        margin-left: 8%;
-        margin-right: 8%;
-        margin-top: 20px;
+        margin: 0;
         text-align: justify;
         align-items: end;
     }
 
     .about {
         padding: 9px;
+    }
+    
+    .contact ul {
+        text-align: center;
+    }
+
+    .contact ul li {
+        list-style: none;
+        border-radius: 25px;
+        border-color: #2A2E2C;
+        width: 183px;
+        background-color: white;
+        margin: 0;
+        padding: 15px;
     }
 }
 
@@ -235,13 +247,11 @@ a:hover {
     text-align: justify;
 }
 
-.contact ul {}
-
 .contact ul li {
     list-style: none;
     border-radius: 25px;
     border-color: #2A2E2C;
-    width: 15%;
+    width: 183px;
     background-color: white;
     margin: 50px;
     padding: 15px;
