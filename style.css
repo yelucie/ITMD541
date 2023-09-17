@@ -60,23 +60,76 @@ a:hover {
     max-width: 25px;
 }
 
-.welcome {
-    margin: 3vh 10vh;
-    font-family: 'Mochiy Pop P One';
-    font-size: 7vh;
-    color: #2B3034;
+@media screen and (max-width: 780px) {
+    .welcome {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 13vh 6vh;
+        font-family: 'Mochiy Pop P One';
+        font-size: 6vh;
+        color: #2B3034;
+    }
+
+    .description {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-right: 6vh;
+        margin-bottom: 12vh;
+        font-family: 'Mochiy Pop P One';
+        font-size: 3vh;
+        color: #2B3034;
+        text-align: right;
+    }
 }
 
-.description {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-right: 5vh;
-    margin-bottom: 10vh;
-    font-family: 'Mochiy Pop P One';
-    font-size: 5vh;
-    color: #2B3034;
-    text-align: right;
+@media screen and (min-width: 780px) and (max-width: 990px) {
+    .welcome {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 12vh 6vh;
+        font-family: 'Mochiy Pop P One';
+        font-size: 7vh;
+        color: #2B3034;
+    }
+
+    .description {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-right: 6vh;
+        margin-bottom: 12vh;
+        font-family: 'Mochiy Pop P One';
+        font-size: 4vh;
+        color: #2B3034;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .welcome {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 12vh 12vh;
+        font-family: 'Mochiy Pop P One';
+        font-size: 7vh;
+        color: #2B3034;
+    }
+    
+    .description {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-right: 12vh;
+        margin-bottom: 12vh;
+        font-family: 'Mochiy Pop P One';
+        font-size: 4vh;
+        color: #2B3034;
+        text-align: right;
+    }
 }
 
 h1 {
