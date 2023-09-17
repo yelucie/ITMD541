@@ -207,10 +207,10 @@ a:hover {
 }
 
 .about {
-    border: solid;
     border-radius: 25px;
     border-color: #2A2E2C;
     background-color: white;
+    margin: 3vh;
 }
 
 .about p {
